@@ -20,7 +20,14 @@ const App =  ()  => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   const handleNextCard = () => {
-    setCurrentCard(getRandomCard());
+
+    let next = getRandomCard();
+    
+    while (currentCard.question === next.question) {
+      next = getRandomCard();
+    }
+  
+    setCurrentCard(next);
     setShowAnswer(false);
   }
 
