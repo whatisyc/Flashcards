@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Flashcard.css'
 
 const Flashcard = ({ card, showAnswer, setShowAnswer }) => {
