@@ -63,3 +63,52 @@
 h3 {
     margin: 0 20px 20px 20px;
 }
+
+.correct-answer { 
+    border: 2px solid #2ecc71; 
+    background: #eafaf0; 
+}
+
+.incorrect-answer { 
+    border: 2px solid #e74c3c; 
+    background: #fff2f0; 
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.input-container {
+    margin-top: 12px;
+}
+
+.input-container form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.input-container input {
+    width: 220px;
+    max-width: 70vw;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input-container button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: white;
+    color: blue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: blue;
+    color: white;
+}

@@ -11,9 +11,17 @@ h2 {
     margin: 0 50px;
 }
 
-.nextCard {
-    display: block;
-    margin: 20px auto;
+.buttons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.next-card, .previous-card {
+    display: inline-block;
+    margin: 0;
     border: 1px solid transparent;
     border-radius: 5px;
     padding: 8px;
@@ -22,11 +30,12 @@ h2 {
     font-weight: 700;
 }
 
-.nextCard:hover {
+.next-card:hover, .previous-card:hover {
     cursor: pointer;
     background-color: blue;
     color: white;
 }
+
 
 .App {
     background-image: url("./assets/background.jpg");
