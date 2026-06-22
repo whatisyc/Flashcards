@@ -19,6 +19,23 @@ h2 {
     
 }
 
+.shuffle-button {
+    display: inline-block;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: white;
+    color: blue;
+    font-weight: 700;
+}
+
+.shuffle-button.active {
+    background-color: #f0f8ff;
+    color: #0b5fff;
+    box-shadow: 0 0 0 2px rgba(11,95,255,0.08) inset;
+}
+
 .next-card, .previous-card {
     display: inline-block;
     margin: 0;
@@ -40,7 +57,12 @@ h2 {
     background-color: rgb(173, 164, 164);
     cursor: not-allowed;
     pointer-events: none;
+}
 
+.next-card:disabled {
+    background-color: rgb(173, 164, 164);
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .App {
