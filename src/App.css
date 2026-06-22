@@ -36,6 +36,12 @@ h2 {
     color: white;
 }
 
+.previous-card:disabled {
+    background-color: rgb(173, 164, 164);
+    cursor: not-allowed;
+    pointer-events: none;
+
+}
 
 .App {
     background-image: url("./assets/background.jpg");

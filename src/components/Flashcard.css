@@ -66,12 +66,12 @@ h3 {
 
 .correct-answer { 
     border: 2px solid #2ecc71; 
-    background: #eafaf0; 
+    background: #6ecc92; 
 }
 
 .incorrect-answer { 
     border: 2px solid #e74c3c; 
-    background: #fff2f0; 
+    background: #c55f4f; 
 }
 
 .input-container {
